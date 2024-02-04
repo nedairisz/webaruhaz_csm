@@ -1,0 +1,20 @@
+img{
+    width: 100%;
+}
+header{
+    height: 15vh;
+    padding-top: 70px;
+    margin-left: 10px;
+}
+.card-footer .btn{
+    float: right;
+}
+img{
+    border: 1px solid rgb(184, 182, 182);
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.card-header{
+    font-weight: bold;
+    
+}
