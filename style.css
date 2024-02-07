@@ -3,7 +3,7 @@ img{
 }
 header{
     height: 15vh;
-    padding-top: 70px;
+    padding-top: 40px;
     margin-left: 10px;
 }
 .card-footer .btn{
@@ -17,4 +17,14 @@ img{
 .card-header{
     font-weight: bold;
     
+}
+
+.piciKep{
+    max-height: 60px;
+    max-width: max-content;
+}
+
+.admSor{
+    border: 1px solid;
+    border-color: rgb(190, 190, 190);
 }
