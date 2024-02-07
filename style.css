@@ -1,0 +1,7 @@
+.piciKep{
+    border: 1px solid rgb(184, 182, 182);
+    border-radius: 8px;
+    margin-bottom: 5px;
+    max-height: 60px;
+    max-width: max-content;
+}
