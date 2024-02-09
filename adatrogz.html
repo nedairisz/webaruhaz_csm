@@ -36,8 +36,36 @@
             <form>
                 <fieldset>
                     <div class="col-lg-4">
-                        <h4>Termék leírása</h4>
+                        <p>Termék megnevezése:</p>
+                        <input type="text" class="termeknev" placeholder="Pl.: Gamer póló...">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Fénykép feltöltése:</p>
+                        <input type="file" id="myFile" name="filename2">
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="meret" class="form-label">Méret kiválasztása:</label>
+                        <select class="form-select" id="meret" name="meret">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option> 
+                            <option>XLL</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Ár:</p>
+                        <input type="number" class="form-control" id="ar">
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="leiras" class="form-label">Termék leírása:</label>
                         <textarea class="form-control" rows="5" id="leírás..." name="text"></textarea>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-secondary" style="width:30%"></div>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-secondary">Felvitel</button>
                     </div>
                     
 
